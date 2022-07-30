@@ -1,0 +1,106 @@
+#header {
+    display: flex;
+    background-color: azure;
+    justify-content: center;
+    margin: 25px;
+}
+
+
+#header > div{
+   
+   width:200px;
+   height:150px;
+   position: relative;
+   /* top: 20px; */
+   
+   
+   background-color: aquamarine;
+  
+   
+  
+}
+.title{
+   
+    position: relative;
+    
+    top: 30px;
+    font-size: xx-large;
+    text-align:center;
+    
+}
+#body{
+    display: flex;
+    /* height: 600px; */
+    background-color: lightgreen;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 25px;
+
+}
+#body > div{
+   width:200px;
+   height:900px;
+   position: relative;
+   justify-content: center;
+   
+   margin: 20px;
+   background-color: yellowgreen;
+   flex-wrap: wrap;
+   
+}
+
+.divcontrols{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    background-color: blueviolet;
+    margin: 10px;
+}
+
+.divcontrols > img{
+    position: relative;
+    margin: 40px;
+    
+}
+#submitbtn:hover{
+ background-color: blueviolet;
+ 
+}
+
+
+
+#form{
+    display: flex;
+    flex-direction: column;
+    background-color: lightsalmon;
+   
+    margin: 25px;
+
+}
+
+#form > div
+{
+    justify-content: space-between;
+    margin: 10px;
+}
+#footer{
+    display: flex;
+    /* height: 50px; */
+    background-color: lightpink;
+   
+    margin: 25px;
+
+}
+#footer > div{
+   width:200px;
+   height: 100px;
+   text-align: center;
+   justify-content: space-between;
+   margin: 20px;
+   background-color: yellowgreen;
+   flex-wrap: wrap;
+   
+}
+
+
+
